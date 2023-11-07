@@ -158,17 +158,20 @@ body {
 
 .conteudo-secundario-botao {
     background-color: rgba(109, 109, 109, 0.50);
-    color: #FFF;
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 0.85px;
     width: 170px;
     height: 43px;
     flex-shrink: 0;
     border: none;
     border-radius: 12px;
     margin-top: 25px;
+}
+
+.conteudo-secundario-botao-texto {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.85px;
 }
 
 .rodape {
