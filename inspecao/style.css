@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&family=Crimson+Text:wght@400;600&family=Inter:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%; /*verificar isso*/
+}
+
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    color: #F5F5F5;
+    background-image: linear-gradient(to top, #cccccc, #d7d7d7, #ececec, #f6f6f6, white, white)
+}
+
+.cabecalho-logotipo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecalho-imagem {
+    height: 70px;
+}
+
+.cabecalho-escrito {
+    height: 55px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho-menu-inicio {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.cabecalho-menu-sobre {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.cabecalho-menu-servicos {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.cabecalho-menu-contato {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+body {
+
+    background: url(../img/capa-inicial.jpg);
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+
+
+
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F5F5F5;
+    padding: 13px;
+}
+
+.rodape-conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.rodape-icon {
+    height: 40px;
+}
+
+.rodape-direitos {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    color: rgba(26, 26, 26, 0.961);
+    font-size: 13px;
+    font-weight: 420;
+}
+
+.rodape-menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.rodape-menu-inicio {
+    font-family: 'Inter', sans-serif;
+    color: rgba(26, 26, 26, 0.961);
+    font-weight: 420;
+    font-size: 13px;
+}
+
+
+.rodape-menu-contato {
+    font-family: 'Inter', sans-serif;
+    color: rgba(26, 26, 26, 0.961);
+    font-weight: 420;
+    font-size: 13px;
+}
