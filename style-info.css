@@ -67,20 +67,17 @@ body {
     margin-top: 90px;
 }
 
-.sobre {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 15px;   
-}
-
 .sobre-advogado {
     display: flex;
     align-items: center;
     flex-direction: row;
-    gap: 150px;
     margin-bottom: 150px;
+    justify-content: center;
+    padding: 5px; 
+    gap: 150px;
+    border:2px solid;
+    border-width: 0.5vw;  
+    border-left-width: 10%;
 }
 
 .sobre-advogado-foto {
@@ -91,9 +88,8 @@ body {
     display: flex;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
-    width: 440px; 
+    width: 30%; 
     text-align: justify;
-
 }
 
 /*.sobre-escritorio {
