@@ -66,27 +66,6 @@ body {
     
 }
 
-/*.cabecalho-menu-sobre {
-    font-family: 'Inter', sans-serif;
-    color: black;
-    font-weight: 500;
-    font-size: 17px;
-}
-
-.cabecalho-menu-servicos {
-    font-family: 'Inter', sans-serif;
-    color: black;
-    font-weight: 500;
-    font-size: 17px;
-}
-
-.cabecalho-menu-contato {
-    font-family: 'Inter', sans-serif;
-    color: black;
-    font-weight: 500;
-    font-size: 17px;
-}*/
-
 .conteudo {
     margin-bottom: 48px; /* espaço entre o fim do ultimo ítem e o começo do rodapé */
 }
@@ -193,7 +172,6 @@ body {
 .conteudo-secundario-botao:hover {
     transform: scale(1.09);
 }
-
 
 .rodape {
     display: flex;

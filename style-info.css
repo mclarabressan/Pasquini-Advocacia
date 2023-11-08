@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&family=Crimson+Text:wght@400;600&family=Inter:wght@400;500;600&display=swap');
+
+/*font-family: 'Cormorant SC', serif;
+font-family: 'Crimson Text', serif;
+font-family: 'Inter', sans-serif;*/
+
+/*RESET CSS - *(todo o coteúdo) e Body font-size 100%*/
+
+* {
+    margin: 0;
+    padding: 0%; /*verificar isso*/
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    padding: 0%;
+    font-size: 100%;
+    height: 100vh;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    color: #F5F5F5;
+    background-image: linear-gradient(to top, #cccccc, #d7d7d7, #ececec, #f6f6f6, white, white)
+}
+
+.cabecalho-logotipo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecalho-imagem {
+    height: 70px;
+}
+
+.cabecalho-escrito {
+    height: 55px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho-nav {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.cabecalho-nav:hover {
+    transform: scale(1.08) ;
+    
+}
+
+
+
+
+
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom, #e6e6e6, #eaeaea, #f4f4f4, #ffffff, white, white);
+    padding: 13px;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.rodape-conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.rodape-icon {
+    height: 30px;
+}
+
+.rodape-direitos {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    color: rgba(26, 26, 26, 0.961);
+    font-size: 13px;
+    font-weight: 420;
+}
+
+.rodape-menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.rodape-menu-item {
+    font-family: 'Inter', sans-serif;
+    color: rgba(26, 26, 26, 0.961);
+    font-weight: 420;
+    font-size: 13px;
+}
+
+.rodape-menu-item:hover {
+    transform: scale(1.05);
+}
