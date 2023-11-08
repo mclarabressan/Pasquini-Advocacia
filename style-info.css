@@ -26,7 +26,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 15px;
+    padding: 15%;
     color: #F5F5F5;
     background-image: linear-gradient(to top, #f0f0f0, #f6f6f6, #f4f4f4, #ffffff, white, white);
 }
