@@ -30,7 +30,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 20px;
+    padding: 15px;
     color: #F5F5F5;
     background-image: linear-gradient(to top, #cccccc, #d7d7d7, #ececec, #f6f6f6, white, white)
 }
@@ -54,14 +54,19 @@ body {
     gap: 40px;
 }
 
-.cabecalho-menu-inicio {
+.cabecalho-nav {
     font-family: 'Inter', sans-serif;
     color: black;
     font-weight: 500;
     font-size: 17px;
 }
 
-.cabecalho-menu-sobre {
+.cabecalho-nav:hover {
+    transform: scale(1.08) ;
+    
+}
+
+/*.cabecalho-menu-sobre {
     font-family: 'Inter', sans-serif;
     color: black;
     font-weight: 500;
@@ -79,7 +84,7 @@ body {
     font-family: 'Inter', sans-serif;
     color: black;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 17px;*/
 }
 
 .conteudo {
@@ -171,22 +176,16 @@ body {
     margin-top: 25px;
 }
 
-.conteudo-secundario-botao {
-    background-color: rgba(109, 109, 109, 0.50);
-    width: 170px;
-    height: 43px;
-    flex-shrink: 0;
-    border: none;
-    border-radius: 12px;
-    margin-top: 25px;
-}
-
 .conteudo-secundario-botao-texto {
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.85px;
+}
+
+.conteudo-secundario-botao:hover {
+    transform: scale(1.09);
 }
 
 
@@ -196,9 +195,10 @@ body {
     align-items: center;
     justify-content: space-around;
     background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom, #e6e6e6, #eaeaea, #f4f4f4, #ffffff, white, white);
     padding: 13px;
     width: 100%;
-    height: 70px;
+    height: 60px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -209,11 +209,11 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    gap: 25px;
+    gap: 10px;
 }
 
 .rodape-icon {
-    height: 40px;
+    height: 30px;
 }
 
 .rodape-direitos {
@@ -230,17 +230,13 @@ body {
     align-items: center;
 }
 
-.rodape-menu-inicio {
+.rodape-menu-item {
     font-family: 'Inter', sans-serif;
     color: rgba(26, 26, 26, 0.961);
     font-weight: 420;
     font-size: 13px;
 }
 
-
-.rodape-menu-contato {
-    font-family: 'Inter', sans-serif;
-    color: rgba(26, 26, 26, 0.961);
-    font-weight: 420;
-    font-size: 13px;
+.rodape-menu-item:hover {
+    transform: scale(1.05);
 }
