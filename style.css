@@ -30,7 +30,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 15px;
+    padding: 1%;
     color: #F5F5F5;
     background-image: linear-gradient(to top, #cccccc, #d7d7d7, #ececec, #f6f6f6, white, white)
 }
@@ -39,14 +39,15 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 1%;
 }
 
 .cabecalho-imagem {
-    height: 70px;
+    height: 9vh;
 }
 
 .cabecalho-escrito {
-    height: 55px;
+    height: 7vh;
 }
 
 .cabecalho-menu {
@@ -57,7 +58,7 @@ body {
 .cabecalho-nav {
     font-family: 'Inter', sans-serif;
     color: black;
-    font-weight: 500;
+    font-weight: 401;
     font-size: 17px;
 }
 
@@ -67,7 +68,8 @@ body {
 }
 
 .conteudo {
-    margin-bottom: 48px; /* espaço entre o fim do ultimo ítem e o começo do rodapé */
+    margin-bottom: 50%;
+    background-attachment: scroll; /* TESTARR espaço entre o fim do ultimo ítem e o começo do rodapé */
 }
 
 .conteudo-principal {
@@ -87,7 +89,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 8%;
     gap: 30px;
 }
 
@@ -114,11 +116,11 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    margin-top: 48px;
+    margin-top: 3%;
 }
 
 .base-linha {
-    margin-top: 15px;
+    margin-top: 1%;
     border-top: 1px solid #F5F5F5;
     color: rgba(109, 109, 109, 0.0);
     text-align: center;
@@ -153,12 +155,12 @@ body {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.85px;
-    width: 170px;
-    height: 43px;
+    width: 11vw;
+    height: 6vh;
     flex-shrink: 0;
     border: none;
     border-radius: 12px;
-    margin-top: 25px;
+    margin-top: 3%;
 }
 
 .conteudo-secundario-botao-texto {
@@ -180,9 +182,9 @@ body {
     justify-content: space-around;
     background-color: #F5F5F5;
     background-image: linear-gradient(to bottom, #e6e6e6, #eaeaea, #f4f4f4, #ffffff, white, white);
-    padding: 13px;
-    width: 100%;
-    height: 60px;
+    padding: 1%;
+    width: 100vw;
+    height: 7vh;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -197,7 +199,7 @@ body {
 }
 
 .rodape-icon {
-    height: 30px;
+    height: 4vh;
 }
 
 .rodape-direitos {
