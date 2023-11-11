@@ -63,8 +63,7 @@ body {
 }
 
 .cabecalho-nav:hover {
-    transform: scale(1.08) ;
-    
+    transform: scale(1.08); /* Aumentar tamanho quando passa o mouse em cima */
 }
 
 .conteudo {
