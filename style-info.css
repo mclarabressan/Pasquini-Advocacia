@@ -24,6 +24,8 @@ body {
     background-attachment: scroll;
 }
 
+/*CABEÇALHO*/
+
 .cabecalho {
     display: flex;
     flex-direction: row;
@@ -61,10 +63,11 @@ body {
 }
 
 .cabecalho-nav:hover {
-    transform: scale(1.08) ;
-    
+    transform: scale(1.08) ;  
 }
 
+
+/*página SOBRE*/
 .conteudo {
     margin-bottom: 48px;
     margin-top: 50px;
@@ -146,6 +149,130 @@ body {
     height: 50vh;
 }
 
+/*página SERVIÇOS*/
+.conteudo-servico {
+    margin-bottom: 48px;
+    margin-top: 50px;
+}
+
+.titulo-servico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.areas-atuacao {
+    display: flex;
+    font-family: Cormorant SC;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    color: #F5F5F5; 
+    animation: fadeIn 1.8s ease-in-out forwards;
+}
+
+.conteudo-container-servico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20%;
+    margin-top: 5%;
+    padding: 1.5% 15%;
+}
+
+.conteudo-servico-bloco {
+    background-color: #f4f4f4; /* Cor de fundo dos blocos */
+    border: 1px solid #f4f4f4;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    text-align: center;
+    animation: fadeIn 1.8s ease-in-out forwards;
+    padding: 1.5%;
+}
+
+.conteudo-container-servico1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.icone-servico1 {
+    display: flex;
+    margin-top: 2%;
+    height: 8vh;
+}
+
+.titulo-servico1 {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.descricao-servico1 {
+    display: flex;
+    width: 80%;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 340;
+}
+
+.saiba-mais-servico1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+}
+
+.saiba-mais-servico1:hover {
+    transform: scale(1.12) ;  
+}
+
+.conteudo-container-servico2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.icone-servico2 {
+    display: flex;
+    margin-top: 2%;
+    height: 8vh;
+}
+
+.titulo-servico2 {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.descricao-servico2 {
+    display: flex;
+    width: 80%;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 340;
+}
+
+.saiba-mais-servico2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+}
+
+.saiba-mais-servico2:hover {
+    transform: scale(1.12) ;  
+}
+
+/*RODAPÉ*/
 .rodape {
     display: flex;
     flex-direction: row;
