@@ -23,9 +23,9 @@ body {
     background-size: cover;
     background-attachment: scroll;
 }
+/*----------------------------------------------------------------------------------------------------------------*/
 
-/*CABEÇALHO*/
-
+/*   CABEÇALHO   */
 .cabecalho {
     display: flex;
     flex-direction: row;
@@ -33,21 +33,22 @@ body {
     justify-content: space-around;
     padding: 1%;
     color: #F5F5F5;
-    background-image: linear-gradient(to top, #f0f0f0, #f6f6f6, #f4f4f4, #ffffff, white, white);
+    background-image: linear-gradient(to top, #d9d9d9, #e6e6e6, #eeeeee, #ffffff, white, white);
 }
 
 .cabecalho-logotipo {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 1%;
 }
 
 .cabecalho-imagem {
-    height: 70px;
+    height: 9vh;
 }
 
 .cabecalho-escrito {
-    height: 55px;
+    height: 7vh;
 }
 
 .cabecalho-menu {
@@ -58,25 +59,42 @@ body {
 .cabecalho-nav {
     font-family: 'Inter', sans-serif;
     color: black;
-    font-weight: 500;
+    font-weight: 401;
     font-size: 17px;
 }
 
 .cabecalho-nav:hover {
-    transform: scale(1.08) ;  
+    transform: scale(1.08); /* Aumentar tamanho quando passa o mouse em cima */
 }
+/*----------------------------------------------------------------------------------------------------------------*/
 
-
-/*página SOBRE*/
+/*     SOBRE    */
 .conteudo {
     margin-bottom: 48px;
     margin-top: 50px;
 }
 
+.titulo-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+}
+
+.sobre-nos {
+    display: flex;
+    font-family: Cormorant SC;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    color: #F5F5F5; 
+    animation: fadeIn 0.6s ease-in-out forwards;
+}
+
 .conteudo-container-sobre {
     display: flex;
     justify-content: center;
-    padding: 1.5% 15%;
+    padding: 1.5% 20%;
     align-items: center;
     flex-direction: column;
 }
@@ -92,9 +110,9 @@ body {
     text-align: center;
     border: 1px solid #f4f4f4;
     margin: 10px;
-    margin-bottom: 150px;
+    margin-bottom: 10%;
     border-radius: 15px;
-    animation: fadeIn 1.8s ease-in-out forwards;
+    animation: fadeIn 0.5s ease-in-out forwards;
 }
 
 .conteudo-container-sobre-bloco1 {
@@ -102,13 +120,14 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 8%;
-    margin-bottom: 80px;
+    gap: 10%;
+    margin-bottom: 6%;
+    margin-top: 3%;
 }
 
 .conteudo-container-sobre-advogado-foto {
     max-width: 100%;
-    height: 50vh;
+    height: 40vh;
 }
 
 .conteudo-container-sobre-divisoria {
@@ -123,8 +142,8 @@ body {
 .conteudo-container-sobre-advogado-texto {
     display: flex;
     font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    width: 35%; 
+    font-size: 19px;
+    width: 30%; 
     text-align: justify;
 }
 
@@ -140,16 +159,17 @@ body {
     display: flex;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
-    width: 30%; 
+    width: 25%; 
     text-align: justify;
 }
 
 .conteudo-container-sobre-escritorio-foto {
     max-width: 100%;
-    height: 50vh;
+    height: 45vh;
 }
+/*----------------------------------------------------------------------------------------------------------------*/
 
-/*página SERVIÇOS*/
+/*    SERVIÇOS    */
 .conteudo-servico {
     margin-bottom: 48px;
     margin-top: 50px;
@@ -159,7 +179,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 7%;
+    margin-top: 6%;
 }
 
 .areas-atuacao {
@@ -169,7 +189,7 @@ body {
     font-weight: 600;
     letter-spacing: 10px;
     color: #F5F5F5; 
-    animation: fadeIn 1.8s ease-in-out forwards;
+    animation: fadeIn 0.6s ease-in-out forwards;
 }
 
 .conteudo-container-servico {
@@ -271,8 +291,39 @@ body {
 .saiba-mais-servico2:hover {
     transform: scale(1.12) ;  
 }
+/*----------------------------------------------------------------------------------------------------------------*/
 
-/*RODAPÉ*/
+/*   CONTATO   */
+.titulo-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    color: #F5F5F5;
+    animation: fadeIn 0.6s ease-in-out forwards;
+}
+
+.contate-nos {
+    display: flex;
+    font-family: Cormorant SC;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+
+.contate-nos-frase {
+    display: flex;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 0.5%;
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+/* RODAPÉ */
 .rodape {
     display: flex;
     flex-direction: row;
