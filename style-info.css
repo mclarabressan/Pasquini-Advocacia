@@ -112,7 +112,7 @@ body {
     margin: 10px;
     margin-bottom: 10%;
     border-radius: 15px;
-    animation: fadeIn 0.5s ease-in-out forwards;
+    animation: fadeIn 1.2s ease-in-out forwards;
 }
 
 .conteudo-container-sobre-bloco1 {
@@ -208,7 +208,7 @@ body {
     border-radius: 15px;
     margin-bottom: 100px;
     text-align: center;
-    animation: fadeIn 1.8s ease-in-out forwards;
+    animation: fadeIn 1.2s ease-in-out forwards;
     padding: 1.5%;
 }
 
@@ -294,32 +294,76 @@ body {
 /*----------------------------------------------------------------------------------------------------------------*/
 
 /*   CONTATO   */
-.titulo-contato {
+.contato-div {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    animation: fadeIn 1.2s ease-in-out forwards;
     margin-top: 6%;
-    color: #F5F5F5;
-    animation: fadeIn 0.6s ease-in-out forwards;
+    gap: 0px;
 }
 
 .contate-nos {
     display: flex;
-    font-family: Cormorant SC;
+    flex-direction: column;
+    align-items: center;
+    color: #F5F5F5;
+    gap: 15px;
+}
+
+.contate-nos-titulo {
+    display: flex;
+    font-family: 'Cormorant SC', serif;
     font-size: 50px;
     font-weight: 600;
-    letter-spacing: 10px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
 }
 
 .contate-nos-frase {
     display: flex;
     font-family: Inter;
-    font-size: 15px;
-    font-weight: 100;
-    letter-spacing: 1px;
-    margin-top: 0.5%;
+    font-size: 16px;
+    font-weight: 50;
+    letter-spacing: 2px;
+    width: 20vw;
+    margin-bottom: 10%;
+    text-align: center;
 }
+
+.contato-email {
+    display: flex;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 50;
+    letter-spacing: 2px;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.link-rede-social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+    gap: 20px; 
+}
+
+.link-insta {
+    height: 5vh;
+}
+
+.link-insta:hover {
+    transform: scale(1.2)
+}
+
+.link-whats {
+    height: 4.5vh;
+}
+
+.link-whats:hover {
+    transform: scale(1.2)
+}
+
 
 /*----------------------------------------------------------------------------------------------------------------*/
 
