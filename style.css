@@ -67,8 +67,7 @@ body {
 }
 
 .conteudo {
-    margin-bottom: 50%;
-    background-attachment: scroll; /* TESTARR espaço entre o fim do ultimo ítem e o começo do rodapé */
+    height: fit-content; /* TESTARR espaço entre o fim do ultimo ítem e o começo do rodapé */
 }
 
 .conteudo-principal {
