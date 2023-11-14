@@ -24,6 +24,12 @@ body {
     background-attachment: scroll;
 }
 
+@keyframes fadeIn { /* SÓ FUNCIONA COM ISSO */
+    0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
 
 
 
@@ -40,7 +46,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 1%;
+    padding: 0.8%;
     color: #F5F5F5;
     background-image: linear-gradient(to top, #d9d9d9, #e6e6e6, #eeeeee, #ffffff, white, white);
 }
@@ -53,23 +59,23 @@ body {
 }
 
 .cabecalho-imagem {
-    height: 9vh;
+    height: 8vh;
 }
 
 .cabecalho-escrito {
-    height: 7vh;
+    height: 6vh;
 }
 
 .cabecalho-menu {
     display: flex;
-    gap: 40px;
+    gap: 2.5em;
 }
 
 .cabecalho-nav {
     font-family: 'Inter', sans-serif;
     color: black;
     font-weight: 401;
-    font-size: 17px;
+    font-size: 1em;
 }
 
 .cabecalho-nav:hover {
@@ -87,9 +93,124 @@ body {
 
 
 
-                                                 /*     SOBRE    */
+                                                 /*     INÍCIO    */
+.conteudo-inicio {
+    margin-top: 2%;
+    height: 100%;
+}
+
+.conteudo-principal {
+    display: flex;
+    justify-content: center;
+    padding: 1.5%;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeIn 1s ease-in-out forwards;
+    margin-bottom: 6%;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+     
+.conteudo-principal-titulo {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3em;
+    font-weight: 500;
+    letter-spacing: 0.4em;
+    color: #F5F5F5;
+}
+
+.conteudo-principal-subtitulo {
+    display: flex;
+    font-family: Cormorant SC;
+    font-size: 4em;
+    font-weight: 600;
+    letter-spacing: 0.4em;
+    color: #F5F5F5;
+    margin-top: 4%;   
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin-top: 3%;
+}
+
+.base-linha {
+    margin-top: 1%;
+    border-top: 1px solid #F5F5F5;
+    color: rgba(109, 109, 109, 0.0);
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.5em;
+}
+
+.conteudo-secundario-paragrafo {
+    color: #F5F5F5;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    margin-top: 4.5%;
+}
+
+.conteudo-secundario-frase {
+    color: #F5F5F5;
+    text-align: center;
+    font-family: 'Inter', sans-serif;   
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.15em;
+}
+
+.conteudo-secundario-botao {
+    background-color: rgba(109, 109, 109, 0.50);
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    width: 25%;
+    height: 6vh;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 5em;
+    margin-top: 7%;
+}
+
+.conteudo-secundario-botao-texto {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+}
+
+.conteudo-secundario-botao:hover {
+    transform: scale(1.09);
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+                                                 /*     SOBRE    */                                                
 .conteudo-sobre {
-    margin-top: 50px;
+    margin-top: 2%;
     height: 100%;
 }
 
@@ -103,9 +224,9 @@ body {
 .sobre-nos {
     display: flex;
     font-family: Cormorant SC;
-    font-size: 50px;
+    font-size: 3em;
     font-weight: 600;
-    letter-spacing: 10px;
+    letter-spacing: 0.3em;
     color: #F5F5F5; 
     animation: fadeIn 0.6s ease-in-out forwards;
 }
@@ -116,12 +237,9 @@ body {
     padding: 1.5% 20%;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 2%;
 }
 
-@keyframes fadeIn { /* SÓ FUNCIONA COM ISSO */
-    0% { opacity: 0; }
-  100% { opacity: 1; }
-}
 
 .conteudo-sobre-bloco {
     background-color: #f4f4f4; /* Cor de fundo dos blocos */
@@ -153,7 +271,7 @@ body {
     display: flex;
     color: #f4f4f4;
     border-left: 1px solid #8c8c8c;
-    font-size: 10px;
+    font-size: 1em;
     width: 1vw; 
     height: 20vh;
 }
@@ -161,7 +279,7 @@ body {
 .conteudo-container-sobre-advogado-texto {
     display: flex;
     font-family: 'Inter', sans-serif;
-    font-size: 19px;
+    font-size: 1.2em;
     width: 30%; 
     text-align: justify;
 }
@@ -177,7 +295,7 @@ body {
 .conteudo-container-sobre-escritorio-texto {
     display: flex;
     font-family: 'Inter', sans-serif;
-    font-size: 18px;
+    font-size: 1.2em;
     width: 25%; 
     text-align: justify;
 }
@@ -215,7 +333,7 @@ body {
     font-family: Cormorant SC;
     font-size: 3em;
     font-weight: 600;
-    letter-spacing: 10px;
+    letter-spacing: 0.3em;
     color: #F5F5F5; 
     animation: fadeIn 0.6s ease-in-out forwards;
 }
@@ -234,7 +352,7 @@ body {
     background-color: #f4f4f4; /* Cor de fundo dos blocos */
     border: 1px solid #f4f4f4;
     border-radius: 15px;
-    margin-bottom: 100px;
+    margin-bottom: 10%;
     text-align: center;
     animation: fadeIn 1.2s ease-in-out forwards;
     padding: 1.5%;
