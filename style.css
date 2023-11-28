@@ -41,7 +41,7 @@ body {
     flex-direction: row; /* direção principal dos ítens (linha ou coluna) */
     align-items: center; /* alinhameno dos itens */
     justify-content: space-around; /* distribuição dos itens */
-    padding: 0.8%; /* espaçamento interno de cada elemento (topo, direita, inferior, esquerda) */
+    padding: 0.8%; /*  espaço entre a borda interna do elemento e seu conteúdo */
     color: #F5F5F5; /* cor do cabeçalho em hexadecimal */
     background-image: linear-gradient(to top, #d9d9d9, #e6e6e6, #eeeeee, #ffffff, white, white); /* gradiente do cabeçalho */
 }
@@ -89,16 +89,17 @@ body {
 
 
                                                  /*     INÍCIO    */
+
 .conteudo-inicio {
-    margin-top: 2%; 
-    height: 100%;
     display: flex;
-    justify-content: center;
-    padding: 1.5%;
-    align-items: center;
-    flex-direction: column;
-    animation: fadeIn 1s ease-in-out forwards;
-    margin-bottom: 6%;
+    /* MARGIN: espaço entre a borda externa do elemento e seus elementos vizinhos.*/
+    margin-top: 2%; /* espaço entre o elemento até o elemento de cima */
+    justify-content: center; /* distribuição dos itens */
+    padding: 1.5%; 
+    align-items: center; /* alinhamento dos itens */
+    flex-direction: column; /* direção dos itens */
+    animation: fadeIn 1s ease-in-out forwards; /* animação do conteudo aparecer gradual */
+    margin-bottom: 6%; /* espaço entre o elemento até o elemento de baixo */
 }
 
 .conteudo-principal {
@@ -113,7 +114,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 1.3em;
     font-weight: 500;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.4em; /* espaçamento entre as letras */
     color: #F5F5F5;
 }
 
@@ -139,7 +140,7 @@ body {
     margin-top: 1%;
     border-top: 1px solid #F5F5F5;
     color: rgba(109, 109, 109, 0.0);
-    text-align: center;
+    text-align: center; 
     font-family: Inter;
     font-size: 1.5em;
 }
@@ -161,18 +162,16 @@ body {
     font-size: 1em;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.15em;
 }
 
 .conteudo-secundario-botao {
-    background-color: rgba(109, 109, 109, 0.50);
+    background-color: rgba(109, 109, 109, 0.50); /* cor de fundo do botão */
     font-size: 1em;
-    width: 25%;
-    height: 6vh;
-    flex-shrink: 0;
-    border: none;
-    border-radius: 5em;
+    width: 25%; /* largura do botão */
+    height: 6vh; /* altira do botão */
+    border: none; /* zerar a borda */
+    border-radius: 5em; /* raio da borda */
     margin-top: 7%;
 }
 
@@ -201,24 +200,20 @@ body {
     height: 100%;
 }
 
-.titulo-sobre {
+.titulo {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 6%;
-}
-
-.sobre-nos {
-    display: flex;
     font-family: Cormorant SC;
     font-size: 3em;
     font-weight: 600;
     letter-spacing: 0.3em;
     color: #F5F5F5; 
-    animation: fadeIn 0.6s ease-in-out forwards;
+    animation: fadeIn 0.6s ease-in-out forwards; /* animação do conteudo aparecer gradual */
 }
 
-.conteudo-container-sobre {
+.bloco-sobre {
     display: flex;
     justify-content: center;
     padding: 1.5% 20%;
@@ -228,7 +223,7 @@ body {
 }
 
 
-.conteudo-sobre-bloco {
+.modelo-bloco-sobre {
     background-color: #f4f4f4; /* Cor de fundo dos blocos */
     padding: 2%;
     text-align: center;
@@ -239,7 +234,7 @@ body {
     animation: fadeIn 1.2s ease-in-out forwards;
 }
 
-.conteudo-container-sobre-bloco1 {
+.conteudo-bloco1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -249,12 +244,12 @@ body {
     margin-top: 3%;
 }
 
-.conteudo-container-sobre-advogado-foto {
+.foto-bloco1 {
     max-width: 100%;
     height: 40vh;
 }
 
-.conteudo-container-sobre-divisoria {
+.divisoria-bloco {
     display: flex;
     color: #f4f4f4;
     border-left: 1px solid #8c8c8c;
@@ -263,7 +258,7 @@ body {
     height: 20vh;
 }
 
-.conteudo-container-sobre-advogado-texto {
+.texto-bloco1 {
     display: flex;
     font-family: 'Inter', sans-serif;
     font-size: 1.2em;
@@ -271,7 +266,7 @@ body {
     text-align: justify;
 }
 
-.conteudo-container-sobre-bloco2 {
+.conteudo-bloco2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -279,7 +274,7 @@ body {
     gap: 4%;
 }
 
-.conteudo-container-sobre-escritorio-texto {
+.texto-bloco2 {
     display: flex;
     font-family: 'Inter', sans-serif;
     font-size: 1.2em;
@@ -287,7 +282,7 @@ body {
     text-align: justify;
 }
 
-.conteudo-container-sobre-escritorio-foto {
+.foto-bloco2 {
     max-width: 100%;
     height: 45vh;
 }
@@ -306,13 +301,6 @@ body {
                                                 /*    SERVIÇOS    */
 .conteudo-servico {
     height: 100%;
-}
-
-.titulo-servico {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 6%;
 }
 
 .areas-atuacao {
@@ -449,18 +437,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 6%;
     color: #F5F5F5;
     animation: fadeIn 1.2s ease-in-out forwards;
-}
-
-.titulo-contato {
-    display: flex;
-    font-family: Cormorant SC;
-    font-size: 3em;
-    font-weight: 600;
-    letter-spacing: 0.3em; 
-    animation: fadeIn 0.6s ease-in-out forwards;
+    margin-top: 2%;
 }
 
 .frase-contato {
@@ -470,7 +449,6 @@ body {
     font-weight: 50;
     letter-spacing: 1px;
     width: 35vw;
-    margin-top: 1%;
     text-align: center;
 }
 
