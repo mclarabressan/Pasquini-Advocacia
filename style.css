@@ -38,9 +38,8 @@ body {
 
 
 
-
-
                                                  /*   CABEÇALHO   */
+
 .cabecalho {
     display: flex;
     flex-direction: row;
