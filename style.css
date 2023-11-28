@@ -37,28 +37,28 @@ body {
                                                  /*   CABEÇALHO   */
 
 .cabecalho {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0.8%;
-    color: #F5F5F5;
-    background-image: linear-gradient(to top, #d9d9d9, #e6e6e6, #eeeeee, #ffffff, white, white);
+    display: flex; /* parte do modelo flexbox. a propriedade deixa o conteiner (div) flexível */
+    flex-direction: row; /* direção principal dos ítens (linha ou coluna) */
+    align-items: center; /* alinhameno dos itens */
+    justify-content: space-around; /* distribuição dos itens */
+    padding: 0.8%; /* espaçamento interno de cada elemento (topo, direita, inferior, esquerda) */
+    color: #F5F5F5; /* cor do cabeçalho em hexadecimal */
+    background-image: linear-gradient(to top, #d9d9d9, #e6e6e6, #eeeeee, #ffffff, white, white); /* gradiente do cabeçalho */
 }
 
 .cabecalho-logotipo {
-    display: flex;
+    display: flex; 
     justify-content: space-around;
     align-items: center;
-    gap: 1%;
+    gap: 1%; /* espaçamento entre os elementos*/
 }
 
 .cabecalho-imagem {
-    height: 8vh;
+    height: 8vh; /* altura (nesse caso, influencia no tamanho da imagem) */
 }
 
 .cabecalho-escrito {
-    height: 6vh;
+    height: 6vh; /* altura (nesse caso, influencia no tamanho da imagem) */
 }
 
 .cabecalho-menu {
@@ -67,14 +67,14 @@ body {
 }
 
 .cabecalho-nav {
-    font-family: 'Inter', sans-serif;
-    color: black;
-    font-weight: 401;
-    font-size: 1em;
+    font-family: 'Inter', sans-serif; /* fonte do texto */
+    font-size: 1em; /* tamanho do texto */
+    color: black; /* cor do texto */
+    font-weight: 401; /* "peso" da fonte -> espessura do texto */
 }
 
-.cabecalho-nav:hover {
-    transform: scale(1.08); /* Aumentar tamanho quando passa o mouse em cima */
+.cabecalho-nav:hover { /* ":hover" é uma pseudo-classe - aplica estilos no elemento quando o usuário passa o mause por cima */
+    transform: scale(1.08); /* aumenta o tamanho do texto */
 }
 
 
@@ -90,11 +90,8 @@ body {
 
                                                  /*     INÍCIO    */
 .conteudo-inicio {
-    margin-top: 2%;
+    margin-top: 2%; 
     height: 100%;
-}
-
-.conteudo-principal {
     display: flex;
     justify-content: center;
     padding: 1.5%;
@@ -104,15 +101,15 @@ body {
     margin-bottom: 6%;
 }
 
-.conteudo-principal-escrito {
+.conteudo-principal {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 5%;
 }
      
-.conteudo-principal-titulo {
-    display: flex;
+.conteudo-principal-bemvindo {
+    display: flex; 
     font-family: 'Inter', sans-serif;
     font-size: 1.3em;
     font-weight: 500;
@@ -120,7 +117,7 @@ body {
     color: #F5F5F5;
 }
 
-.conteudo-principal-subtitulo {
+.conteudo-principal-pasquiniadvocacia {
     display: flex;
     font-family: Cormorant SC;
     font-size: 4em;
@@ -147,7 +144,7 @@ body {
     font-size: 1.5em;
 }
 
-.conteudo-secundario-paragrafo {
+.conteudo-secundario-texto1 {
     color: #F5F5F5;
     text-align: center;
     font-family: Inter;
@@ -157,7 +154,7 @@ body {
     margin-top: 4.5%;
 }
 
-.conteudo-secundario-frase {
+.conteudo-secundario-texto2 {
     color: #F5F5F5;
     text-align: center;
     font-family: 'Inter', sans-serif;   
@@ -170,11 +167,7 @@ body {
 
 .conteudo-secundario-botao {
     background-color: rgba(109, 109, 109, 0.50);
-    color: #FFF;
-    font-family: 'Inter', sans-serif;
     font-size: 1em;
-    font-weight: 600;
-    letter-spacing: 0.14em;
     width: 25%;
     height: 6vh;
     flex-shrink: 0;
@@ -186,7 +179,6 @@ body {
 .conteudo-secundario-botao-texto {
     color: #FFF;
     font-family: 'Inter', sans-serif;
-    font-size: 1em;
     font-weight: 500;
     letter-spacing: 0.06em;
 }
@@ -615,7 +607,7 @@ textarea::placeholder {
     height: 4vh;
 }
 
-.rodape-direitos {
+.rodape-copyright {
     display: flex;
     font-family: 'Inter', sans-serif;
     color: rgba(26, 26, 26, 0.961);
