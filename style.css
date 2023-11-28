@@ -450,45 +450,73 @@ body {
 
 
                                                      /*   CONTATO   */
+
+
 .conteudo-contato {
-    margin-bottom: 7em;
+    margin-bottom: 10%;
     height: 100%;
 }
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6%;
+    color: #F5F5F5;
+}
+
+.titulo-contato {
+    display: flex;
+    font-family: Cormorant SC;
+    font-size: 3em;
+    font-weight: 600;
+    letter-spacing: 0.3em; 
+    animation: fadeIn 0.6s ease-in-out forwards;
+}
+
+.frase-contato {
+    display: flex;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 50;
+    letter-spacing: 1px;
+    width: 35vw;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.link-rede-social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+    gap: 20px; 
+    margin-top: 1%;
+}
+
+.link-insta {
+    height: 4.5vh;
+}
+
+.link-insta:hover {
+    transform: scale(1.1)
+}
+
+.link-whats {
+    height: 4vh;
+}
+
+.link-whats:hover {
+    transform: scale(1.1)
+}
+
 
 .contato-div {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     animation: fadeIn 1.2s ease-in-out forwards;
-    margin-top: 8%;
-}
-
-.contate-nos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #F5F5F5;
-    gap: 15px;
-}
-
-.contate-nos-titulo {
-    display: flex;
-    font-family: 'Cormorant SC', serif;
-    font-size: 50px;
-    font-weight: 600;
-    letter-spacing: 3px;
-    margin-bottom: 20px;
-}
-
-.contate-nos-frase {
-    display: flex;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 50;
-    letter-spacing: 2px;
-    width: 20vw;
-    margin-bottom: 15%;
-    text-align: center;
+    margin-top: 5%;
 }
 
 .contato-email {
@@ -501,28 +529,8 @@ body {
     text-align: center;
 }
 
-.link-rede-social {
-    display: flex;
-    flex-direction: row;
-    align-items: center;   
-    gap: 20px; 
-}
 
-.link-insta {
-    height: 5vh;
-}
 
-.link-insta:hover {
-    transform: scale(1.1)
-}
-
-.link-whats {
-    height: 4.5vh;
-}
-
-.link-whats:hover {
-    transform: scale(1.1)
-}
 
 fieldset {
     border: 0;
