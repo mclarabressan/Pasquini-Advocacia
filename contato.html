@@ -34,59 +34,52 @@
             <div class="contato">
                 <h2 class="frase-contato">Contate-nos para saber como nossos serviços personalizados podem ajudar você a economizar tempo e dinheiro.</h2>
                 <div class="link-rede-social">
-                    <a href="https://api.whatsapp.com/send?phone=5517997749144&text=Olá,%20gostaria%20de%20uma%20avaliação" target="_blank" rel="external"><img class="link-whats" src="img/icon-whatsapp.png" alt="Whatsapp"></a>                
+                    <a href="https://api.whatsapp.com/send?phone=5517981114807&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços." target="_blank" rel="external"><img class="link-whats" src="img/icon-whatsapp.png" alt="Whatsapp"></a> <!--- link persoalisado gerado pela web -->                
                     <a href="https://www.instagram.com/joelpasquinidv/" target="_blank" rel="external"><img class="link-insta" src="img/icon-instagram.png" alt="Instagram"></a>
                 </div>
             </div>
 
             <div class="contato-div">          
-                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3729.9430719969073!2d-49.40241712391523!3d-20.793590865782466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bdad05c0fc7029%3A0x62eba8406bb0e126!2sFatec%20-%20Faculdade%20de%20Tecnologia%20de%20S%C3%A3o%20Jos%C3%A9%20do%20Rio%20Preto!5e0!3m2!1spt-BR!2sbr!4v1701178164624!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3729.9430719969073!2d-49.40241712391523!3d-20.793590865782466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bdad05c0fc7029%3A0x62eba8406bb0e126!2sFatec%20-%20Faculdade%20de%20Tecnologia%20de%20S%C3%A3o%20Jos%C3%A9%20do%20Rio%20Preto!5e0!3m2!1spt-BR!2sbr!4v1701178164624!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <!--- google maps incorporado -->  
                             
                 <div class="forms">
-                    <form action="https://api.sheetmonkey.io/form/wjuwSqMupSV6cBSxJtWbcu" method="post" autocomplete="off">
-                        <fieldset class="grupo">
-                            <div class="campo">
-                                <label for="nome"></label>
-                                <input type="text" name="nome" id="nome" placeholder="Nome" required>
-                            </div>
-                        </fieldset>
+                    <form action="https://api.sheetmonkey.io/form/wjuwSqMupSV6cBSxJtWbcu" method="post" autocomplete="off"> <!--- "forms" cria o formulário, "action" é o atributo que especifica para onde os dados do forms é enviado (nessa caso, a ferramente sheetmonkey manda as informações para um sheet do google) -->
+                            <div class="campo"> <!--- cada div aqui vai ter a mesma "class" porque vão ter as mesmas configurações. vão representar cada campo para preencher no forms -->
 
-                        <fieldset class="grupo">
+                                <label for="nome"></label> <!--- essa tag associa um rótulo ao campo do forms, e aparece normalmente em cima do campo. nesse caso esta vazio pois o rótulo queremos dentro do campo, e não fora. o atributo "for" serve para associar o "label" com o elemento de entrada (no nosso caso vamos usar o "input" e o "textarea"), e deve ter o mesmo valor do atributo "id" desse elemento de entrada -->
+                                <input type="text" name="nome" id="nome" placeholder="Nome" required> <!--- essa tag é o elemento de entrada. ela permite criar os varios tipos de campos no forms. o que vai definir o tipo é o atributo "type" - nesse caso, o tipo do campo vai ser de texto, mas tambem usamos o tipo email e submit (botão para enviar o forms). é aqui que informamos o valor no "id" que precisa ser igual do label. o atributo "placehoder" é o escrito que fica dentro do campo. nesse caso ela ta substituindo o a descrição do label. -->
+                            </div>
+
                             <div class="campo">
                                 <label for="email"></label>
-                                <input type="email" name="email" id="email" placeholder="Email" required>
+                                <input type="email" name="email" id="email" placeholder="Email" required> <!--- type -> email -->
                             </div>
-                        </fieldset>
 
-                        <fieldset class="grupo">
                             <div class="campo">
                                 <label for="assunto"></label>
                                 <input type="text" name="assunto" id="assunto" placeholder="Assunto" required>
                             </div>
-                        </fieldset>
 
-                        <fieldset class="grupo">
                             <div class="campo">
                                 <label for="mensagem"></label>
-                                <textarea name="mensagem" id="mensagem" rows="6" style="width: 26em;" placeholder="Digite sua mensagem aqui..." required></textarea>
+                                <textarea name="mensagem" id="mensagem" rows="6" style="width: 26em;" placeholder="Digite sua mensagem aqui..." required></textarea> <!--- segue a mesma ideia do input, mas aqui é apenas um tipo de campo, um campo de texto em aberto, onde é possivel editar a quatidade de linha permitidas digitar -->
                             </div>
-                        </fieldset>
-                            <input type="submit" class="botao-form" value="Enviar">
+
+                            <input type="submit" class="botao-form" value="Enviar"> <!--- type -> botão para enviar forms -->
                     </form>
                 </div>
             </div>
         </main>
 
 
-        <footer class="rodape">
-            <div class="rodape-conteudo">
+        <footer class="rodape"> <!--- rodapé (vai ser o mesmo para todas as páginas) -->
+            <div class="rodape-conteudo"> <!--- div para editar o icone e o copyright -->
                 <img class="rodape-icon" src="img/favicon.ico" alt="icon">
-                <p class="rodape-direitos">&copy Copyright 2020 - 2023 Pasquini Advocacia.</p>
+                <p class="rodape-copyright">&copy Copyright 2020 - 2023 Pasquini Advocacia.</p>
             </div>
-        
-            
-            <div class="rodape-nav">
-                <nav class="rodape-menu">
+
+            <div class="rodape-nav"> <!--- div para editar a navegação do rodapé -->
+                <nav class="rodape-menu"> 
                     <a class="rodape-menu-item" href="index.html">Início</a>
                     <p class="rodape-barra">|</p>
                     <a class="rodape-menu-item" href="contato.html">Contato</a>
