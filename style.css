@@ -299,21 +299,11 @@ body {
 
 
                                                 /*    SERVIÇOS    */
-.conteudo-servico {
+.conteudo-servicos {
     height: 100%;
 }
 
-.areas-atuacao {
-    display: flex;
-    font-family: Cormorant SC;
-    font-size: 3em;
-    font-weight: 600;
-    letter-spacing: 0.3em;
-    color: #F5F5F5; 
-    animation: fadeIn 0.6s ease-in-out forwards;
-}
-
-.conteudo-container-servico {
+.servicos{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -323,7 +313,7 @@ body {
     padding: 1.5% 15%;
 }
 
-.conteudo-servico-bloco {
+.bloco-servicos {
     background-color: #f4f4f4; /* Cor de fundo dos blocos */
     border: 1px solid #f4f4f4;
     border-radius: 15px;
@@ -333,7 +323,7 @@ body {
     padding: 1.5%;
 }
 
-.conteudo-container-servico1{
+.servico{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -341,79 +331,47 @@ body {
     gap: 20px;
 }
 
-.icone-servico1 {
+.icone-servico {
     display: flex;
     margin-top: 2%;
     height: 8vh;
 }
 
-.titulo-servico1 {
+.titulo-servico {
     display: flex;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 600;
 }
 
-.descricao-servico1 {
+.descricao-servico {
     display: flex;
     width: 80%;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 340;
+    text-align: justify;
 }
 
-.saiba-mais-servico1 {
+.botao-servico {
+    background-color: #2c2c2c; /* cor de fundo do botão */
+    border: none; /* zerar a borda */ 
+    margin-top: 7%;
+    border-radius: 2em; /* raio da borda */
+    padding: 2.5%;
+}
+
+.botao-servico-texto {
+    color: #FFF;
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    color: #000;
-    font-weight: 700;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    font-size: 110%;
 }
 
-.saiba-mais-servico1:hover {
-    transform: scale(1.12) ;  
+.botao-servico:hover {
+    transform: scale(1.09);
 }
-
-.conteudo-container-servico2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.icone-servico2 {
-    display: flex;
-    margin-top: 2%;
-    height: 8vh;
-}
-
-.titulo-servico2 {
-    display: flex;
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.descricao-servico2 {
-    display: flex;
-    width: 80%;
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 340;
-}
-
-.saiba-mais-servico2 {
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    color: #000;
-    font-weight: 700;
-}
-
-.saiba-mais-servico2:hover {
-    transform: scale(1.12) ;  
-}
-
-
 
 
 
