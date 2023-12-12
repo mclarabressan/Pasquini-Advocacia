@@ -17,7 +17,7 @@ body {
     padding: 0%; /* espaçamento interno dos elementos (topo, direita, inferior, esquerda) */
     font-size: 100%; /* tamanho da fonte */
     height: 100%; /* altura do conteúdo dos elementos */
-    background-color: #1b1b1b; /* cor de fundo */
+    /*background-color: #1b1b1b; /* cor de fundo */
 }
 
 @keyframes fadeIn { /* regra que define animações (no site, usada para dar o efeito do conteúdo aparecer gradual) */
@@ -152,7 +152,7 @@ body {
     font-size: 1em;
     font-weight: 400;
     letter-spacing: 0.15em;
-    margin-top: 4.5%;
+    margin-top: 0.1em;
 }
 
 .conteudo-secundario-texto2 {
@@ -166,21 +166,22 @@ body {
 }
 
 .conteudo-secundario-botao {
-    background-color: rgba(109, 109, 109, 0.50); /* cor de fundo do botão */
-    font-size: 1em;
+    /*background-color: rgba(109, 109, 109, 0.50); /* cor de fundo do botão */
+    /*font-size: 1em;
     width: 25%; /* largura do botão */
-    height: 6vh; /* altira do botão */
-    border: none; /* zerar a borda */
-    border-radius: 5em; /* raio da borda */
-    margin-top: 7%;
-}
+   /* height: 6vh; /* altira do botão */
+   /* border: none; /* zerar a borda */
+   /*border-radius: 10em; /* raio da borda */
+   margin-top: 1em;
+} 
 
-.conteudo-secundario-botao-texto {
+
+ .conteudo-secundario-botao-texto {
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     letter-spacing: 0.06em;
-}
+} 
 
 .conteudo-secundario-botao:hover {
     transform: scale(1.09);
@@ -554,8 +555,9 @@ textarea::placeholder {
     display: flex;
     font-family: 'Inter', sans-serif;
     color: rgba(26, 26, 26, 0.961);
-    font-size: 13px;
+    font-size: 0.9em;
     font-weight: 420;
+    margin-top: 1.3em;
 }
 
 .rodape-menu {
@@ -568,7 +570,12 @@ textarea::placeholder {
     font-family: 'Inter', sans-serif;
     color: rgba(26, 26, 26, 0.961);
     font-weight: 420;
-    font-size: 13px;
+    font-size: 0.9em;
+}
+
+.rodape-barra {
+    display: flex;
+    margin-top: 0.8em;
 }
 
 .rodape-menu-item:hover {

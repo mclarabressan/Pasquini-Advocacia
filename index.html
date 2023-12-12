@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     
-    <head> 
+    <head> <!---->
         <meta charset="UTF-8"> <!--- aceitação dos caracteres especiais -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
         <meta name="description" content="Escritório dedicado a servir você com excelência e comprometimento. Defendendo seus direitos, protegendo seu futuro!"> <!--- texto de descrição que fica abaixo do link, na página de resposta do navegador -->
         <link rel="stylesheet" href="style.css" type="text/css"> <!--- "âncora" com a página de css -->
         <link rel="icon" href="img/favicon.ico" type="image/x-icon"> <!--- ícone que fica na guia do navegador, ao lado do tittle -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <title>Pasquini Advocacia</title> <!--- texto na guia do navegador -->
     </head>
 
-    <body>
+    <body class="bg-dark">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
         <header class="cabecalho"> <!--- cabeçalho (vai ser o mesmo para todas as páginas) -->
             <!--- "div" tag de divisão genéria: cria seções na página, como se fossem caixas. agrupam estruturas -->
             <div class="cabecalho-logotipo"> <!--- uma div para as duas imagens do logotipo -->
@@ -21,10 +23,10 @@
 
             <div class="cabecalho-div"> <!--- uma div para o menu de navegação -->
                 <nav class="cabecalho-menu">  <!--- define uma sessão de navegação, menus ou outras informações de navegação -->
-                    <a class="cabecalho-nav" href="index.html">Início</a>
-                    <a class="cabecalho-nav" href="sobre.html">Sobre</a>
-                    <a class="cabecalho-nav" href="servicos.html">Serviços</a>
-                    <a class="cabecalho-nav" href="contato.html">Contato</a>
+                    <a class="cabecalho-nav text-decoration-none" href="index.html">Início</a>
+                    <a class="cabecalho-nav text-decoration-none" href="sobre.html">Sobre</a>
+                    <a class="cabecalho-nav text-decoration-none" href="servicos.html">Serviços</a>
+                    <a class="cabecalho-nav text-decoration-none" href="contato.html">Contato</a>
                 </nav>
             </div>
         </header>
@@ -38,7 +40,7 @@
                     <p class="base-linha">servir com excelência</p> 
                     <p class="conteudo-secundario-texto1">Escritório dedicado a servir você com excelência e comprometimento.</p>
                     <h3 class="conteudo-secundario-texto2">Defendendo seus direitos, protegendo seu futuro!</h3>   
-                    <button class="conteudo-secundario-botao"><a class="conteudo-secundario-botao-texto" href="https://api.whatsapp.com/send?phone=5517981114807&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20prestados." target="_blank" rel="external">Entre em Contato</a></button> <!--- tag para o botão abrir o inicio de uma conversa no whats em uma aba nova -->
+                    <button class="conteudo-secundario-botao btn btn-secondary"><a class="conteudo-secundario-botao-texto link-light link-offset-2 link-underline link-underline-opacity-0" href="https://api.whatsapp.com/send?phone=5517981114807&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20prestados." target="_blank" rel="external">Entre em Contato</a></button> <!--- tag para o botão abrir o inicio de uma conversa no whats em uma aba nova -->
                 </div>
         </main>
 
@@ -50,9 +52,9 @@
 
             <div class="rodape-nav"> <!--- div para editar a navegação do rodapé -->
                 <nav class="rodape-menu"> 
-                    <a class="rodape-menu-item" href="index.html">Início</a>
+                    <a class="rodape-menu-item text-decoration-none" href="index.html">Início</a>
                     <p class="rodape-barra">|</p>
-                    <a class="rodape-menu-item" href="contato.html">Contato</a>
+                    <a class="rodape-menu-item text-decoration-none" href="contato.html">Contato</a>
                 </nav>
             </div>
         </footer>
